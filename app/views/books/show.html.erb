@@ -1,0 +1,13 @@
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+<% end %>
+<%= form_with model: @book,  local:true do |book| %>
+<div class="show-title"><p><strong>Title:</strong></p>
+<div class="show-titel-item"><%= @book.title %></div></div>
+<div class="show-body"><p><strong>Body:</strong></p>
+<div class="show-body-item"><%= @book.body %></div></div>
+<div class="show-bottom"><%= link_to "Edit", edit_book_path(@book.id) %>
+|
+ <%= link_to "Back", books_path %></div>
+
+ <% end %>

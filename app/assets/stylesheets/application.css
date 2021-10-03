@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+p{
+  margin-left: 80px;
+  margin-bottom: 10px;
+}
+.new{
+  margin-left: 30px;
+}
+
+.created-top{
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+color: green
+}
+.created-title{
+   margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.created-body{
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.index-top{
+  display: flex
+}
+.index-title{
+  margin-left: 100px;
+}
+.index-body{
+  margin-left: 300px;
+}
+table{
+  padding-left: 30px;
+
+}
+.index-title-item{
+
+width: 150px;
+}
+.index-body-item{
+  width: 500px;
+
+}
+.index-show{
+  width: 50px;
+}
+.index-edit{
+  width: 30px;
+}
+.index-destroy{
+  width: 50px;
+}
+.show-title{
+   display: flex;
+   padding-top:30px;
+   padding-bottom: 15px;
+   padding-left: 30px;
+
+}
+.show-body{
+   display: flex;
+   padding-top:15px;
+   padding-bottom: 15px;
+   padding-left: 30px;
+
+}
+.show-titel-item{
+  padding-left: 10px;
+}
+.show-body-item{
+  padding-left: 10px;
+}
+.show-bottom{
+  padding-left: 50px;
+}
+.edit-top{
+  margin-left: 20px;
+}
+.update{
+  color: green;
+  padding-left: 30px;
+}
